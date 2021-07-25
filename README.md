@@ -2,6 +2,23 @@
 
 # Notes for git:
 
+## Git pull (clone project to new local)
+
+```
+git init
+git remote add origin git@github.com:tam-nt24897/react-crash-course-2021.git
+git pull origin main
+```
+
+### Check if not set
+```
+git config --global user.email “you@example.com”
+git config --global user.name “Your Name”
+```
+
+### Check list of config
+#### `git config --list`
+
 ## Push an existing repository from the command line
 
 ```
